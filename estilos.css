@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+main{
+    width:100%;
+    height: auto;
+    background-color: #34495e;
+    position: absolute;
+}
+
+.content-all{
+    width: 100%;
+    max-width: 1000px;
+    background-color: #17A086;
+    margin: auto;
+    margin-top: 80px;
+    border: 1px solid white;
+}
+header{
+    width:100%;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #18bc9d;
+
+}
+#check{
+    display: none;
+}
+
+.menu{
+    position: fixed;
+    top:60px;
+    width: 0px;
+    height: 100vh;
+    background: #2d3e50;
+    transition: all 300ms;
+    overflow: hidden;
+    display: block;
+    width: 400px;
+}
+.menu li{
+    list-style: none;
+    padding: 16px;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms;
+    
+}
+.menu li:hover{
+    background: rgba(0, 0,0,0.2);
+    border-left: 3px solid white;
+    
+}
+article{
+    padding: 10px;
+}
+.content-all label{
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 14px;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+
+}
+.content-all h2{
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 14px;
+    font-size: 26px;
+    text-align:unset;
+    color:white;
+}
+article h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin-top: 20px;
+}
+article .parrafo1{
+    font-size: 20px;
+    color:white;
+    margin-top: 40px;
+   letter-spacing: 1px; 
+
+}
+
+article img{
+    width: 100%;
+    border: 4px solid white;
+    margin-top: 40px;
+}
+
+
+.mostrar{
+    transform: translateX(300px);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    margin: 0ch;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  #imgPrincipal{
+      border: 0ch;   
+      margin: 0%; 
+      padding: 0%;
+  }
+
+.icon-map{
+    border: 0%;   
+    margin: 0%; 
+    padding: 0%;
+}
+
+.social{
+    justify-content: right;
+    justify-items: right;
+    border: 20px;   
+    margin: 10; 
+    padding: 20px;
+}
+
+.contact-list{
+    padding: 10px;
+    width: 200px;
+    display: block;
+    font-family: verdana;
+    height: 50px;
+    align-items: center;
+    max-width: 50%;
+}
+
+#title{
+    border-color: crimson;
+}

@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: #34495e;
+    position: absolute;
+}
+
+.content-all {
+    width: 100%;
+    max-width: 1000px;
+    background-color: #17A086;
+    margin: auto;
+    margin-top: 80px;
+    border: 1px solid white;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #18bc9d;
+}
+
+#check {
+    display: none;
+}
+
+.menu {
+    position: fixed;
+    top: 60px;
+    width: 0px;
+    height: 100vh;
+    background: #2d3e50;
+    transition: all 300ms;
+    overflow: hidden;
+    display: block;
+    width: 400px;
+}
+
+.menu li {
+    list-style: none;
+    padding: 16px;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.menu li:hover {
+    background: rgba(0, 0, 0, 0.2);
+    border-left: 3px solid white;
+}
+
+article {
+    padding: 10px;
+}
+
+.content-all label {
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 14px;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+.content-all h2 {
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 14px;
+    font-size: 26px;
+    text-align: unset;
+    color: white;
+}
+
+article h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+article .parrafo1 {
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+article img {
+    width: 100%;
+    border: 4px solid white;
+    margin-top: 40px;
+}
+
+p {
+    color: black;
+    font-size: 120%;
+    line-height: 155%;
+    padding: 4% 0 0 0;
+    text-indent: 0%;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 145%;
+    line-height: 75%;
+    font-weight: 500;
+    color: rgb(0 0 0 / 0.80);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.mostrar {
+    transform: translateX(300px);
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    margin: 0ch;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.imgPrincipal {
+    border: 0ch;
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2d3e50;
+}
+
+nav {
+    padding: 0 0 0 0;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 100%;
+    display: inline-block;
+    padding: 2% 10% 2% 10%;
+}
+
+nav ul li a {
+    color: #f2f2f2;
+    text-align: center;
+}
+
+#maintitle {
+    text-align: center;
+    padding: 5% 0 0 0;
+    font-size: 200%;
+    color: white;
+}
+
+footer {
+    background: #333;
+    width: 100%;
+    overflow: auto;
+}
+
+.icon-text {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icon-text-icon {
+    float: left;
+    width: 20%;
+    padding: 4%;
+}
+
+.icon-text-text ul li a img {
+    width: 9%;
+    height: 9%;
+    padding: 1%;
+}
+
+.icon-text-text #facebook img {
+    width: 15%;
+    height: 13%;
+    padding: 2%;
+}
+
+.icon-text-text {
+    text-align: right;
+    float: right;
+    width: 70%;
+    padding: 4% 4% 2% 0;
+}
+
+.footer-nav {
+    text-align: right;
+}
+
+.footer-nav a {
+    font-size: 120%;
+    color: #ffffff;
+    font-weight: 100
+}
+
+.footer-nav a:hover {
+    color: #17A086;
+}
+
+.social {
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 420%;
+    margin: 1%;
+    padding: 5%;
+    color: white;
+}
+
+.second-footer {
+    border-top: 1px solid white;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    /*Esconde el scrollBar */
+}
+
+.second-footer p,
+.second-footer a {
+    text-align: center;
+    color: white;
+    font: 10%;
+    font-size: 100%;
+    line-height: 30%;
+    padding: 2%;
+}
+
+.imgTitle {
+    width: 50px;
+    height: 50px;
+}
+
+#title {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 45px;
+    margin: 0 0 24px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+/* CssSlider */
+
+* {
+    box-sizing: border-box
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    width: 90%;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.iconoArriba {
+    position: relative;
+    width: 10px;
+}
+
+.imgServicio {
+    width: 250px;
+    display: inline;
+}
+.imgGal{
+    width: 100px;
+    display: inline;
+}
+
+.textServicios {
+    padding-bottom: 50px;
+}
+
+.subServicios {
+    font-size: 34px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-align: center;
+    word-spacing: 8px
+}
