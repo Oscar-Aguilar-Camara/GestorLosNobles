@@ -30,7 +30,7 @@ AppAsset::register($this);
 
     <?php $this->beginBody() ?>
 
-    <div class="bg-warning">
+    <div class="bg-info">
         <?php
         NavBar::begin([
             'brandLabel' => 'Los Nobles',

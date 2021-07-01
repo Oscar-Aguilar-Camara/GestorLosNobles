@@ -15,8 +15,8 @@ $this->title = 'Los Nobles';
             <img src="\cursoyii2\img\logotipo.jpeg" style="width:80%">
         </div>
         <h3>Por favor, inicie sesión para continuar</h3>
-        <p><a class="btn btn-lg btn-success" href="http://localhost/cursoyii2/frontend/web/index.php?r=site%2Flogin">Iniciar sesión</a></p>
+        <p><a class="btn btn-lg btn-primary" href="http://localhost/cursoyii2/frontend/web/index.php?r=site%2Flogin">Iniciar sesión</a></p>
         <h3>¿No tiene cuenta? ¡Cree una!</h3>
-        <p><a class="btn btn-lg btn-success" href="http://localhost/cursoyii2/frontend/web/index.php?r=site%2Fsignup">Crear cuenta</a></p>
+        <p><a class="btn btn-lg btn-primary" href="http://localhost/cursoyii2/frontend/web/index.php?r=site%2Fsignup">Crear cuenta</a></p>
     </div>
 </div>
